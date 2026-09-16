@@ -1,11 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11709.299 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A5008EC-1383-489F-9ACD-248EFEB0782A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synnduit", "src\Synnduit\Synnduit.csproj", "{3A989F34-E73B-4AE4-8808-F9F26A926B93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synnduit.ConsoleLogger", "..\Synnduit.ConsoleLogger\src\Synnduit.ConsoleLogger\Synnduit.ConsoleLogger.csproj", "{E3FDA613-E50F-4684-B036-2056698E3F3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synnduit.Engine", "..\Synnduit.Engine\src\Synnduit.Engine\Synnduit.Engine.csproj", "{E37BBD42-847F-4094-A7F4-66AE9F0D1506}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synnduit.Persistence", "..\Synnduit.Persistence\src\Synnduit.Persistence\Synnduit.Persistence.csproj", "{77A29AB4-53B2-41A3-A198-167CAB67427B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synnduit.Persistence.SqlServer", "..\Synnduit.Persistence.SqlServer\src\Synnduit.Persistence.SqlServer\Synnduit.Persistence.SqlServer.csproj", "{5C2048AF-E6DA-4485-9853-61A9EFAC6923}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synnduit.Core", "..\Synnduit.Core\src\Synnduit.Core\Synnduit.Core.csproj", "{CCD1F1C6-277A-48DE-B8BC-AB17A2A6102B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +27,26 @@ Global
 		{3A989F34-E73B-4AE4-8808-F9F26A926B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A989F34-E73B-4AE4-8808-F9F26A926B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A989F34-E73B-4AE4-8808-F9F26A926B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FDA613-E50F-4684-B036-2056698E3F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FDA613-E50F-4684-B036-2056698E3F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FDA613-E50F-4684-B036-2056698E3F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FDA613-E50F-4684-B036-2056698E3F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37BBD42-847F-4094-A7F4-66AE9F0D1506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37BBD42-847F-4094-A7F4-66AE9F0D1506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37BBD42-847F-4094-A7F4-66AE9F0D1506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37BBD42-847F-4094-A7F4-66AE9F0D1506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A29AB4-53B2-41A3-A198-167CAB67427B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A29AB4-53B2-41A3-A198-167CAB67427B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A29AB4-53B2-41A3-A198-167CAB67427B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A29AB4-53B2-41A3-A198-167CAB67427B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2048AF-E6DA-4485-9853-61A9EFAC6923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2048AF-E6DA-4485-9853-61A9EFAC6923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2048AF-E6DA-4485-9853-61A9EFAC6923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2048AF-E6DA-4485-9853-61A9EFAC6923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD1F1C6-277A-48DE-B8BC-AB17A2A6102B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD1F1C6-277A-48DE-B8BC-AB17A2A6102B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD1F1C6-277A-48DE-B8BC-AB17A2A6102B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD1F1C6-277A-48DE-B8BC-AB17A2A6102B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
